@@ -45,11 +45,11 @@ class MinStack {
 
     public int top() {
 
-        return stack.pop();
+        return stack.peek();
     }
 
     public int getMin() {
-        return minstack.pop();
+        return minstack.peek();
     }
     public String toString(){
         StringBuilder res = new StringBuilder();
